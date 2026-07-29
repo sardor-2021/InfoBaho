@@ -1,0 +1,14 @@
+{
+  "name": "infotest-platform",
+  "version": "1.0.0",
+  "description": "InfoTest - Educational Assessment Platform",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "init-db": "cd backend && node scripts/initDatabase.js",
+    "start-backend": "cd backend && node server.js",
+    "postinstall": "npm run install-backend"
+  },
+  "keywords": ["education", "assessment", "testing"],
+  "author": "InfoTest Team",
+  "license": "MIT"
+}
